@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+		<link rel="stylesheet" href="main.css">
+	
+		<style>
+			body { font-family: san-serif; }
+			h1 { text-align: center; }
+		</style>
+		<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+        <script src="signupscript.js"></script>
+		
+	</head>
+		<body>
+			<script>
+		document.write('<p>Welcome ' + name +  '</p>');
+		</script> </div>
+			<div class="nav">
+			  <div class="container">
+				<ul class="pull-left">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="#">Browse</a></li>
+				</ul>
+				<ul class="pull-right">
+				  <li><a href="#">Sign Up</a></li>
+				  <li><a href="#">Log In</a></li>
+				  <li><a href="#">Help</a></li>
+				</ul>
+			  </div>
+			</div>
+	<!-- ***************************************************************************************** -->	
+			<div class="mainContent">
+					<div class="container">
+						<h1> Site In Progress </h1>
+						<form action="index.html" method="post" oninput="ageOut.value=age.value">
+						Search: <input type='search'/> <br/>
+						<label for="firstname">First Name:</label>
+						<input id="firstname" name="firstname" type="text" placeholder="Enter your first name"/> <br/>
+						
+	<!-- ***************************************************************************************** -->
+						Favorite team:
+						<input type="text" list="teams"/>
+						<datalist id="teams">
+							<option> Team 1 </option>
+							<option> Team 2 </option>
+							<option> Team 3 </option>
+						</datalist><br/>
+	<!-- ***************************************************************************************** -->
+						phone number:
+						<input type='tel' name='phone' 
+							pattern="^\d{3}-\d{3}-\d{4}$"
+							placeholder="###-###-####"/><br/>
+						<label for="comments">Comments:</label>
+						<textarea id="comments" name="comments"></textarea><br />
+	<!-- ***************************************************************************************** -->
+						File upload:
+						<input type='file' name='uploadfile'/><br/>
+	<!-- ***************************************************************************************** -->
+						Email:
+						<input type='email'/>
+						
+	<!-- ***************************************************************************************** -->
+						Your age:
+						<input type='number' min='10' max='100' step='5'/>  <br/>
+						<input id='age' type='range' min='10' max='100' step='5'/> 
+						<output id='ageOut'></output>
+						<br/>
+	<!-- ***************************************************************************************** -->
+						<input type="date" /> <br/>
+						Favorite color: <input type='color'/>
+						
+	<!-- ***************************************************************************************** -->
+						<input type="submit" />
+						</form>
+				</div>
+			</div>
+		</body>
+</html>
+		
