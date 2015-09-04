@@ -50,10 +50,3 @@
   color: #00b0ff;
 }
 
-.underConstruction {
-  background-image:url("Uc.jpg");
-  height: 570px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
