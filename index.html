@@ -1,97 +1,96 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-		<link rel="stylesheet" href="main.css"> 
 
-        <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
-        <script src="app.js"></script>
-        
-        <link rel="stylesheet" href="styles.css">
-       <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-       <script src="script.js"></script>
-    
-	</head>
-	<body>
-<!--  Part 1 -->
-        
+<head>
+    <title> The Angular Angkor </title>
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="app.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <!--  Part 1 Menu -->
+
     <div id='cssmenu'>
         <ul>
-           <li><a href='index.html'><span>Home</span></a></li>
-           <li class='active has-sub'><a href='#'><span>Entertainments</span></a>
-              <ul>
-                 <li class=''><a href='Entertainments/Gallery/gallery.html'><span>Gallery</span></a>
-                 </li>
-                 <li class=''><a href='Entertainments/Music/music.html'><span>Music</span></a>
-                 </li>
-              </ul>
-           </li>
-           <li class='active has-sub'><a href='#'><span>Games</span></a>
-              <ul>
-                 <li class=''><a href='Games/Snake/snake.html'><span>Snake</span></a>
-                 </li>
-                 <li class=''><a href='Games/TicTacToe/tictactoe.html'><span>Tic Tac Toe</span></a>
-                 </li>
-              </ul>
-           </li>
-           <li class='active has-sub'><a href='#'><span>Utilities</span></a>
-              <ul>
-                 <li class=''><a href='Utility/iStudy/iStudy.html'><span>iStudy</span></a>
-                 </li>
-                 <li class=''><a href='Utility/Calculator/calculator.html'><span>Calculator</span></a>
-                 </li>
-                 <li class=''><a href='Utility/ToDoList/todolist.html'><span>To Do List</span></a>
-                 </li>
-              </ul>
-           </li>
-            
-            
-            <li class="pull-right"><a href="signup.html">Sign Up</a></li> 
-				<li class="pull-right"><a href="#">Log In</a></li>
-				<li class="pull-right"><a href="#">Help</a></li>
+            <li><a href='index.html'><span>Home</span></a></li>
+            <li class='active has-sub'><a href='#'><span>Entertainments</span></a>
+                <ul>
+                    <li class=''><a href='Entertainments/Gallery/gallery.html'><span>Gallery</span></a>
+                    </li>
+                    <li class=''><a href='Entertainments/Music/music.html'><span>Music</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class='active has-sub'><a href='#'><span>Games</span></a>
+                <ul>
+                    <li class=''><a href='Games/Snake/snake.html'><span>Snake</span></a>
+                    </li>
+                    <li class=''><a href='Games/TicTacToe/tictactoe.html'><span>Tic Tac Toe</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class='active has-sub'><a href='#'><span>Utilities</span></a>
+                <ul>
+                    <li class=''><a href='Utility/iStudy/web_development.html'><span>iStudy</span></a>
+                    </li>
+                    <li class=''><a href='Utility/Calculator/calculator.html'><span>Calculator</span></a>
+                    </li>
+                    <li class=''><a href='Utility/ToDoList/todolist.html'><span>To Do List</span></a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li class="pull-right"><a href="signup.html">Sign Up</a></li>
+            <li class="pull-right"><a href="#">Log In</a></li>
+            <li class="pull-right"><a href="#">Help</a></li>
         </ul>
     </div>
-        
-<!-- Part 2 -->
-		
-		<div class="jumbotron">
-            
-		  <div class="container">
-              
-			<h1>The Angular Angkor</h1>
-            <p><strong>
-		          <script> printToday(); </script> 
+
+    <!-- Part 2 Date and Time -->
+    <div class="pull-right dateTime"> <strong>
+		      <script> printToday(); </script> 
                 <span id="time"> <script> startTime(); </script></span>
-                <span> Central Time Zone </span>
-            </strong></p>
-		  </div>
-		</div> 
-		<div class="iStudy">
-			 <div class="container">
-				<div class="row">
-				
-					<div class="col-md-4">
-						<h3>HTML 5</h3>
-						<p>HTML5 is a W3C specification that defines the fifth major revision of the Hypertext Markup Language (HTML). One of the major changes in HTML5 is in respect to how HTML addresses Web applications.</p>
-						<p><a href="#">Learn more about HTML 5</a></p>
-					</div>
-					
-					<div class="col-md-4">
-						<h3>CSS 3</h3>
-						<p>CSS3 is the latest standard for CSS. CSS3 is completely backwards-compatible with earlier versions of CSS. (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language.</p>
-						<p><a href="#">Learn more about CSS 3</a></p>
-					</div>
-					<div class="col-md-4">
-						<h3>Bootstrap</h3>
-						<p>Bootstrap is a free collection of tools for creating websites and web applications. It contains HTML and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.</p>
-						<p><a href="#">Learn about Bootstrap</a></p>
-					</div>
-				</div>
-			 </div>
-		</div>
-      </div>
+            </strong>
+    </div>
+
+    <!-- Part 3 The Angular Angkor -->
+    <div class="jumbotron">
+        <h1 style="text-align: center;">The Angular Angkor</h1>
+    </div>
+    <div class="iStudy">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <h3>HTML 5</h3>
+                    <p>HTML5 is a W3C specification that defines the fifth major revision of the Hypertext Markup Language (HTML). One of the major changes in HTML5 is in respect to how HTML addresses Web applications.</p>
+                    <p><a href="#">Learn more about HTML 5</a></p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>CSS 3</h3>
+                    <p>CSS3 is the latest standard for CSS. CSS3 is completely backwards-compatible with earlier versions of CSS. (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language.</p>
+                    <p><a href="#">Learn more about CSS 3</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Bootstrap</h3>
+                    <p>Bootstrap is a free collection of tools for creating websites and web applications. It contains HTML and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.</p>
+                    <p><a href="#">Learn about Bootstrap</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
-    
-    
+
+
 </html>
-	
