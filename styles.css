@@ -49,6 +49,7 @@
   font-family: Helvetica, sans-serif;
   text-decoration: none;
 }
+
 #cssmenu > ul > li > a {
   font-size: 14px;
   font-weight: bold;
@@ -67,6 +68,7 @@
 #cssmenu > ul > li:hover > a {
   color: red;
 }
+
 #cssmenu li.has-sub::after {
   display: block;
   content: "";
