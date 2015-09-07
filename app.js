@@ -1,6 +1,6 @@
-$(document).ready(function() {
-    $('body').hide().fadeIn(2000);    
-});
+//$(document).ready(function() {
+//    $('body').hide().fadeIn(2000);    
+//});
 
 //Date and Time 
 function printToday() {
