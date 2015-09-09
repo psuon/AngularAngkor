@@ -1,37 +1,84 @@
-<!DOCTYPE html> 
-<html> 
-    <head>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
- 
-        <link rel="stylesheet" href="style.css" /> 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<!--script src='gameboard.js'></script--> 
-		<!--script src='snake.js'></script-->
-        <script src='script.js'></script> 
-        <title>Simple snake game</title> 
-    </head> 
-    <body> 
-        <div id='game'> 
-            <div id='gameField'>  
-            </div> 
-            <div id='gameInfo'> 
-				<div id='points'>
-					<div>Your score:</div>
-					<div id='score'>0</div>
-					<div>Speed:</div>
-					<div id='speed'>1</div>
-				</div>
-				<div id='gamemsg'>
-					<div id='nextRndMsg'>Next Round!</div>
-					<div id='loseMsg'>You lose! Try again</div>
-				</div>
-				<div id='rules'>
-					<p>Press Space to start or restart the game</p>
-					<p>Use arrows to move</p>
-					<p>Press Esc to quit</p>
-				</div>
-            </div> 
-        </div> 
-          
-    </body> 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="snakeStyle.css" />
+    <link rel="stylesheet" href="../../StyleSheets/amazonaws.css">
+    <link rel="stylesheet" href="../../StyleSheets/styles.css">
+    <link rel="stylesheet" href="../../StyleSheets/main.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <script src="../../StyleSheets/script.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src='script.js'></script>
+    <title>Snake game</title>
+</head>
+
+<body>
+    <!--    Part 1 Menu-->
+    <div id='cssmenu'>
+        <ul>
+
+            <li>
+                <a href='../../index.html'>
+                    <i class="fa fa-home fa-lg"></i><span> Home</span></a>
+            </li>
+            <li class='active has-sub'><a href='#'><span>Entertainments</span></a>
+                <ul>
+                    <li class=''><a href='../../Entertainments/Gallery/gallery.html'><span>Gallery</span></a>
+                    </li>
+                    <li class=''><a href='../../Entertainments/Music/music.html'><span>Music</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class='active has-sub'><a href='#'><span>Games</span></a>
+                <ul>
+                    <li class=''><a href='snake.html'><span>Snake</span></a>
+                    </li>
+                    <li class=''><a href='../TicTacToe/tictactoe.html'><span>Tic Tac Toe</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class='active has-sub'><a href='#'><span>Utilities</span></a>
+                <ul>
+                    <li class=''><a href='../../Utility/iStudy/web_development.html'><span>iStudy</span></a>
+                    </li>
+                    <li class=''><a href='../../Utility/Calculator/calculator.html'><span>Calculator</span></a>
+                    </li>
+                    <li class=''><a href='../../Utility/ToDoList/todolist.html'><span>To Do List</span></a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li class="pull-right"><a href="../../SignUp/signup.html">Sign Up</a></li>
+            <li class="pull-right"><a href="#">Log In</a></li>
+            <li class="pull-right"><a href="#">Help</a></li>
+        </ul>
+    </div>
+    <div id='game'>
+        <div id='gameField'>
+        </div>
+        <div id='gameInfo'>
+            <div id='points'>
+                <div>Your score:</div>
+                <div id='score'>0</div>
+                <div>Speed:</div>
+                <div id='speed'>1</div>
+            </div>
+            <div id='gamemsg'>
+                <div id='nextRndMsg'>Next Round!</div>
+                <div id='loseMsg'>You lose! Try again</div>
+            </div>
+            <div id='rules'>
+                <p>Press Space to start or restart the game</p>
+                <p>Use arrows to move</p>
+                <p>Press Esc to quit</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
 </html>

@@ -1,0 +1,33 @@
+.content {
+    position: absolute;
+    left: 50%;
+    margin-left: -7.53em;
+}
+
+.board {
+    position: absolute;
+    border: 1px solid black;
+    padding: 0.3em;
+    width: 15.8em;
+}
+
+.tile {
+    border: 1px dotted black;
+    text-align: center;
+    vertical-align: middle;
+    width: 5em;
+    height: 5em;
+    float: left;
+}
+
+.nofloat {
+    clear: both;
+}
+
+.X,
+.O {
+    font-size: 3em;
+    position: relative;
+    top: 0.3em;
+    display: none;
+}

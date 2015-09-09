@@ -1,26 +1,79 @@
 <!DOCTYPE html>
 <html>
-    <head>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-        <link rel="stylesheet" href="style.css" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-        <script src='script.js'></script>
-    	<title>Tic-tac-toe</title>
-	</head>
-	<body>
-		<div class="content">
-			<div class="board">
-				<div class="tile" id="0"><span class="X">X</span><span class="O">O</span></div>
-				<div class="tile" id="1"><span class="X">X</span><span class="O">O</span></div>
-				<div class="tile" id="2"><span class="X">X</span><span class="O">O</span></div>
-				<div class="tile nofloat" id="3"><span class="X">X</span><span class="O">O</span></div>
-				<div class="tile" id="4"><span class="X">X</span><span class="O">O</span></div>
-				<div class="tile" id="5"><span class="X">X</span><span class="O">O</span></div>
-				<div class="tile nofloat" id="6"><span class="X">X</span><span class="O">O</span></div>
-				<div class="tile" id="7"><span class="X">X</span><span class="O">O</span></div>
-				<div class="tile" id="8"><span class="X">X</span><span class="O">O</span></div>
-			</div>
-		</div>
-	</body>
+<head>
+    <link rel="stylesheet" href="tttStyle.css" />
+    <link rel="stylesheet" href="../../StyleSheets/amazonaws.css">
+    <link rel="stylesheet" href="../../StyleSheets/styles.css">
+    <link rel="stylesheet" href="../../StyleSheets/main.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../../StyleSheets/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src='script.js'></script>
+    <title>Tic-tac-toe</title>
+</head>
+
+<body>
+    <!--    Part 1 Menu-->
+    <div id='cssmenu'>
+        <ul>
+
+            <li>
+                <a href='../../index.html'>
+                    <i class="fa fa-home fa-lg"></i><span> Home</span></a>
+            </li>
+            <li class='active has-sub'><a href='#'><span>Entertainments</span></a>
+                <ul>
+                    <li class=''><a href='../../Entertainments/Gallery/gallery.html'><span>Gallery</span></a>
+                    </li>
+                    <li class=''><a href='../../Entertainments/Music/music.html'><span>Music</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class='active has-sub'><a href='#'><span>Games</span></a>
+                <ul>
+                    <li class=''><a href='../Snake/snake.html'><span>Snake</span></a>
+                    </li>
+                    <li class=''><a href='tictactoe.html'><span>Tic Tac Toe</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class='active has-sub'><a href='#'><span>Utilities</span></a>
+                <ul>
+                    <li class=''><a href='../../Utility/iStudy/web_development.html'><span>iStudy</span></a>
+                    </li>
+                    <li class=''><a href='../../Utility/Calculator/calculator.html'><span>Calculator</span></a>
+                    </li>
+                    <li class=''><a href='../../Utility/ToDoList/todolist.html'><span>To Do List</span></a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li class="pull-right"><a href="../../SignUp/signup.html">Sign Up</a></li>
+            <li class="pull-right"><a href="#">Log In</a></li>
+            <li class="pull-right"><a href="#">Help</a></li>
+        </ul>
+    </div>
+    <div>
+    </div>
+
+    <!--    Part 2 TTT Game -->
+    <div class="content">
+        <div class="board">
+            <div class="tile" id="0"><span class="X">X</span><span class="O">O</span></div>
+            <div class="tile" id="1"><span class="X">X</span><span class="O">O</span></div>
+            <div class="tile" id="2"><span class="X">X</span><span class="O">O</span></div>
+            <div class="tile nofloat" id="3"><span class="X">X</span><span class="O">O</span></div>
+            <div class="tile" id="4"><span class="X">X</span><span class="O">O</span></div>
+            <div class="tile" id="5"><span class="X">X</span><span class="O">O</span></div>
+            <div class="tile nofloat" id="6"><span class="X">X</span><span class="O">O</span></div>
+            <div class="tile" id="7"><span class="X">X</span><span class="O">O</span></div>
+            <div class="tile" id="8"><span class="X">X</span><span class="O">O</span></div>
+        </div>
+    </div>
+</body>
+
 </html>
