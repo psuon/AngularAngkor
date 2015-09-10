@@ -1,5 +1,6 @@
-//$(document).ready(function() {
-//    $('body').hide().fadeIn(2000);    
+//Fade In
+//$(document).ready(function () {
+//    $('body').hide().fadeIn(3000);
 //});
 
 //Date and Time 
@@ -8,19 +9,37 @@ function printToday() {
     document.write(today.toDateString());
 }
 
+//Military time 24 hours
+//function startTime() {
+//    var today=new Date();
+//    var h=today.getHours();
+//    var m=today.getMinutes();
+//    var s=today.getSeconds();
+//    m = checkTime(m);
+//    s = checkTime(s);
+//    document.getElementById('time').innerHTML = h+":"+m+":"+s;
+//    var t = setTimeout(function(){startTime()},500);
+//}
+//
+//function checkTime(i) {
+//    if (i<10) {i = "0" + i}; 
+//    return i;
+//}
+
 function startTime() {
-    var today=new Date();
-    var h=today.getHours();
-    var m=today.getMinutes();
-    var s=today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('time').innerHTML = h+":"+m+":"+s;
-    var t = setTimeout(function(){startTime()},500);
-}
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    h = h % 12;
+    h = h ? h : 12; // the hour '0' should be '12'
+    var ampm = h >= 12 ? 'AM' : 'PM';
+    m = m < 10 ? '0' + m : m;
+    s = s < 10 ? '0' + s : s;
+    // add a zero in front of numbers<10
 
-function checkTime(i) {
-    if (i<10) {i = "0" + i}; 
-    return i;
+    document.getElementById('time').innerHTML = h + ':' + m + ':' + s + ' ' + ampm;
+    t = setTimeout(function () {
+        startTime()
+    }, 500);
 }
-
