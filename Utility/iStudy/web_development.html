@@ -13,10 +13,12 @@
 
     <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
     <script src="event.js"></script>
+    <script src="services.js"></script>
 
 </head>
 
 <body>
+
     <!--  Part 1 Menu -->
 
     <div id='cssmenu'>
@@ -53,7 +55,6 @@
                 </ul>
             </li>
 
-
             <li class="pull-right"><a href="signup.html">Sign Up</a></li>
             <li class="pull-right"><a href="#">Log In</a></li>
             <li class="pull-right"><a href="#">Help</a></li>
@@ -66,34 +67,31 @@
         <i class="fa fa-spinner fa-spin fa-5x"></i>
     </div>
 
+    <!--    Part 3333-->
     <!--
-   <div class="item">
-    <div class="col-xs-2">
-        <div class="list-group">
-            <a class="list-group-item" href="../index.html"><i class="fa fa-home fa-fw"></i> Home</a>
 
-            <div class="menu">
-                <a class="list-group-item" href="#"><i class="fa fa-book fa-fw"></i> Library</a>
-                <div class="navigation">
-                    <ul>
-                        <li><a href="https://www.google.com/"> Google </a></li>
-                        <li> CSS </li>
-                        <li> JavaScript </li>
-                        <li> JQuery </li>
-                    </ul>
+    <div class="item" style="display: inline-block; padding-top: 25px;">
+        <div class="col-xs-12">
+            <div class="list-group">
+                <div class="menu">
+                    <a class="list-group-item" href="#"><i class="fa fa-book fa-fw"></i> Library</a>
+                    <div class="navigation">
+                        <ul>
+                            <li> CSS </li>
+                            <li> JavaScript </li>
+                            <li> JQuery </li>
+                        </ul>
+                    </div>
                 </div>
+                <a class="list-group-item" href="#"><i class="fa fa-check-square fa-fw"></i> To Do Lists</a>
             </div>
-
-            <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw"></i> Applications</a>
-            <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw"></i> Settings</a>
-            <a class="list-group-item" href="#"><i class="fa fa-check-square fa-fw"></i> To Do Lists</a>
         </div>
     </div>
-</div>
 -->
-    <!--    <a name="top"></a>-->
 
-    <div class="nav">
+    <!--    <a name="top"></a>-->
+    <!--use this inside the nav: pull-right" style="display: inline-block-->
+    <div class="nav ">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 date">
@@ -118,14 +116,16 @@
 
                 <div class="description row">
                     <div class="col-xs-12">
-                        <p> HTML5 is a W3C specification that defines the fifth major revision of the Hypertext Markup Language (HTML). One of the major changes in HTML5 is in respect to how HTML addresses Web applications.</p>
-                        <p><b>Web pages are created using HTML and CSS. What do these languages do?</b></p>
+                        <p id="questionHtml">
+                        </p>
                         <ul>
-                            <li> HTML is used to establish a page's structure. It also lets us add text, links and images </li>
+                            <li id="html1"></li>
                             <br/>
-                            <li> CSS is used to control the design and layout of the page </li>
+                            <li id="html2"></li>
                             <br/>
-                            <li> HTML stands for HyperText Markup Language. The HyperText part refers to the fact that HTML allows you to create links that allow visitors to move from one page to another quickly and easily. A Markup language allows you to annotate text, and these annotations provides additional meaning to the contents of a document. We add code around the original text we want to display and the browser then uses the code to display the page correctly. So the tags we add are the markup. </li>
+                            <li id="html3"></li>
+                            <br />
+                            <li id="html5"></li>
                         </ul>
                     </div>
 
@@ -150,15 +150,15 @@
                 <div class="description row">
                     <div class="col-xs-12">
                         <ul>
-                            <li> HTML elements are the building blocks of web pages </li>
+                            <li id="htmlElements1"> </li>
                             <br />
-                            <li> HTML elements describe each piece of content on a web page so that the web browser knows how to display it. </li>
+                            <li id="htmlElements2"> </li>
                             <br />
-                            <li> HTML elements are usually made up of two <b> tags </b>: an opening tag and a closing tag. </li>
+                            <li id="htmlElements3"> </li>
                             <br />
-                            <li> Each HTML element tells the browser something about the information that sits between its opening and closing tags. </li>
+                            <li id="htmlElements4"> </li>
                             <br />
-                            <li> Opening tags can carry attributes, which tell us more about the content of that element. </li>
+                            <li id="htmlElements5"> </li>
                             <br />
                         </ul>
                     </div>
@@ -184,9 +184,9 @@
                 <div class="description row">
                     <div class="col-xs-12">
                         <ul>
-                            <li> Attributes provide additional information about the contents of an element. They appear on the opening tag of the element and are made up of two parts: a <b>name </b> and a <b> value </b>, separated by an equals sign. </li>
+                            <li id="attribute1"> </li>
                             <br />
-                            <li> Attributes require a <b> name </b> and <b> value </b>. </li>
+                            <li id="attribute2"> </li>
                         </ul>
                     </div>
                 </div>
@@ -209,19 +209,19 @@
 
                 <div class="description row">
                     <div class="col-xs-12">
-                        <p> A web page is a collection of HTML elements. CSS is used to control the appearance of an HTML element. </p>
+                        <p id="css1"> </p>
                         <ul>
-                            <li> HTML is used to write a web page's content.</li>
-                            <li> CSS is used to define the design and layout of the page </li>
+                            <li id="css2"> </li>
+                            <li id="css3"> </li>
                         </ul>
-                        <p><b> CSS Rules </b></p>
+                        <p id="css4"> </p>
                         <ul>
-                            <li> CSS uses <b> rules </b>to style HTML elements. Here's how CSS rules work: </li>
-                            <li> A CSS rule starts with a <b> selector </b>. A selector specifies which HTML elements to style. Here the <b> h1 </b> CSS selector selects all <b> h1 </b>HTML elements on the page. </li>
+                            <li id="css5"> </li>
+                            <li id="css6"> </li>
                             <br />
-                            <li> Inside the braces <b> { } </b>, a <b> property </b>and its value define what aspect of the h1 elements to style. Setting the color property to <b> red </b>changes the color of the <b> h1 </b>element to red.</li>
+                            <li id="css7"> </li>
                             <br />
-                            <li> Together, a selector and its property-value pairs are called <b> CSS rule </b></li>
+                            <li id="css8"> </li>
                         </ul>
                     </div>
                 </div>
@@ -244,26 +244,22 @@
 
                 <div class="description row">
                     <div class="col-xs-12">
-                        <p> HTML elements can be CSS selectors, but they're not the only selectors available. Another available selector is the <b> class selector. </b></p>
+                        <p id="classAttribute1"> </p>
 
-                        <p><b> Class Selector </b></p>
+                        <p id="classAttribute2"></p>
                         <ul>
-                            <li> The <b> class </b>can be targeted from CSS by using a dot <b>(.)</b>, as seen in the CSS </li>
+                            <li id="classAttribute3"> </li>
                             <br />
-                            <li> The <b>.header</b> selector applies a blue text color only to the elements nested inside
-                                <textarea>
-                                    <div class="header">..</div>
-                                </textarea>
-                            </li>
-                            <li> In this way, classes are useful to specifically target groups of HTML elements. </li>
+                            <li id="classAttribute4"> </li>
+                            <li id="classAttribute5"> </li>
                         </ul>
-                        <p><b> Combining Selectors </b></p>
+                        <p id="classAttribute6"></p>
                         <ul>
-                            <li> It's possible to be even more specific by combining classes and element names. </li>
+                            <li id="classAttribute7"> </li>
                             <br />
-                            <li> This CSS selector selects any <b> p </b>element nested inside an HTML element with the class named <b> header</b>, and colors it blue. </li>
+                            <li id="classAttribute8"> </li>
                             <br />
-                            <li> In this way, a CSS rule targets specific HTML elements on the page and applies a style to them. </li>
+                            <li id="classAttribute9"> </li>
                         </ul>
                     </div>
                 </div>
@@ -286,16 +282,16 @@
 
                 <div class="description row">
                     <div class="col-xs-12">
-                        <p> JavaScript and JQuery are used to make web pages interactive. </p>
+                        <p id="javascript1"> </p>
                         <ul>
-                            <li> JavaScript is a programming language used to create web pages that change in response to user actions.</li>
-                            <li> JQuery is a collection of prewritten JavaScript code that lets us easily create interactive effects on our site. Below is an interaction made with JavaScript and JQuery. </li>
+                            <li id="javascript2"> </li>
+                            <li id="javascript3"> </li>
                         </ul>
-                        <p><b>Summary: JavaScript </b>is a programming language used to add interactivity to a web page. <b> JQuery </b>simplifies JavaScript syntax and makes it easier to build interactive web pages that work across multiple browsers. JQuery enables us to do three main things on a web page: </p>
+                        <p id="javascript4"> </p>
                         <ul>
-                            <li><b> Events.</b> Respond to user interactions.</li>
-                            <li><b> DOM Manipulation.</b> Modify HTML elements on the page.</li>
-                            <li><b> Effects.</b> Add animations.</li>
+                            <li id="javascript5"></li>
+                            <li id="javascript6"></li>
+                            <li id="javascript7"></li>
                         </ul>
                     </div>
                 </div>

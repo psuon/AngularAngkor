@@ -1,0 +1,72 @@
+{
+    "questionHtml": "<b>Web pages are created using HTML and CSS. What do these languages do?</b>",
+    "html1": "HTML is used to establish a page's structure. It also lets us add text, links and images",
+
+    "html2": "CSS is used to control the design and layout of the page",
+
+    "html3": "HTML stands for HyperText Markup Language. The HyperText part refers to the fact that HTML allows you to create links that allow visitors to move from one page to another quickly and easily. A Markup language allows you to annotate text, and these annotations provides additional meaning to the contents of a document. We add code around the original text we want to display and the browser then uses the code to display the page correctly. So the tags we add are the markup.",
+
+    "html5": "HTML5 is a W3C specification that defines the fifth major revision of the Hypertext Markup Language (HTML). One of the major changes in HTML5 is in respect to how HTML addresses Web applications.",
+
+    "htmlElements1": "HTML elements are the building blocks of web pages",
+
+    "htmlElements2": "HTML elements describe each piece of content on a web page so that the web browser knows how to display it. ",
+
+    "htmlElements3": " HTML elements are usually made up of two <b> tags </b>: an opening tag and a closing tag.",
+
+    "htmlElements4": "Each HTML element tells the browser something about the information that sits between its opening and closing tags.",
+
+    "htmlElements5": "Opening tags can carry attributes, which tell us more about the content of that element.",
+
+    "attribute1": "Attributes provide additional information about the contents of an element. They appear on the opening tag of the element and are made up of two parts: a <b>name </b> and a <b> value </b>, separated by an equals sign.",
+
+    "attribute2": "Attributes require a <b> name </b> and <b> value </b>.",
+
+    "css1": "A web page is a collection of HTML elements. CSS is used to control the appearance of an HTML element.",
+
+    "css2": "HTML is used to write a web page's content.",
+
+    "css3": "CSS is used to define the design and layout of the page",
+
+    "css4": "<b> CSS Rules </b>",
+
+    "css5": "CSS uses <b> rules </b>to style HTML elements. Here's how CSS rules work:",
+
+    "css6": "A CSS rule starts with a <b> selector </b>. A selector specifies which HTML elements to style. Here the <b> h1 </b> CSS selector selects all <b> h1 </b>HTML elements on the page.",
+
+    "css7": "Inside the braces <b> { } </b>, a <b> property </b>and its value define what aspect of the h1 elements to style. Setting the color property to <b> red </b>changes the color of the <b> h1 </b>element to red.",
+
+    "css8": "Together, a selector and its property-value pairs are called <b> CSS rule </b>",
+
+    "classAttribute1": "HTML elements can be CSS selectors, but they're not the only selectors available. Another available selector is the <b> class selector. </b>",
+
+    "classAttribute2": "<b> Class Selector </b>",
+
+    "classAttribute3": "The <b> class </b>can be targeted from CSS by using a dot <b>(.)</b>, as seen in the CSS ",
+
+    "classAttribute4": "The <b>.header</b> selector applies to a grouping  elements nested inside class=\"header\" ",
+
+    "classAttribute5": "In this way, classes are useful to specifically target groups of HTML elements. ",
+
+    "classAttribute6": "<b> Combining Selectors </b>",
+
+    "classAttribute7": "It's possible to be even more specific by combining classes and element names.",
+
+    "classAttribute8": "This CSS selector selects any <b> p </b>element nested inside an HTML element with the class named <b> header</b>, and colors it blue.",
+
+    "classAttribute9": "In this way, a CSS rule targets specific HTML elements on the page and applies a style to them.",
+
+    "javascript1": "JavaScript and JQuery are used to make web pages interactive.",
+
+    "javascript2": "JavaScript is a programming language used to create web pages that change in response to user actions.",
+
+    "javascript3": "JQuery is a collection of prewritten JavaScript code that lets us easily create interactive effects on our site. Below is an interaction made with JavaScript and JQuery.",
+
+    "javascript4": "<b>Summary: JavaScript </b>is a programming language used to add interactivity to a web page. <b> JQuery </b>simplifies JavaScript syntax and makes it easier to build interactive web pages that work across multiple browsers. JQuery enables us to do three main things on a web page:",
+
+    "javascript5": "<b> Events.</b> Respond to user interactions.",
+
+    "javascript6": "<b> DOM Manipulation.</b> Modify HTML elements on the page.",
+
+    "javascript7": "<b> Effects.</b> Add animations."
+}

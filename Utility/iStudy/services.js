@@ -1,0 +1,42 @@
+var text = {};
+$.getJSON('iStudyHtml.json', function (data) {
+    console.log(data);
+    text = data;
+    $("#questionHtml").html(text.questionHtml);
+    $("#html1").html(text.html1);
+    $("#html2").html(text.html2);
+    $("#html3").html(text.html3);
+    $("#html5").html(text.html5);
+    $("#htmlElements1").html(text.htmlElements1);
+    $("#htmlElements2").html(text.htmlElements2);
+    $("#htmlElements3").html(text.htmlElements3);
+    $("#htmlElements4").html(text.htmlElements4);
+    $("#htmlElements5").html(text.htmlElements5);
+    $("#attribute1").html(text.attribute1);
+    $("#attribute2").html(text.attribute2);
+    $("#css1").html(text.css1);
+    $("#css2").html(text.css2);
+    $("#css3").html(text.css3);
+    $("#css4").html(text.css4);
+    $("#css5").html(text.css5);
+    $("#css6").html(text.css6);
+    $("#css7").html(text.css7);
+    $("#css8").html(text.css8);
+    $("#classAttribute1").html(text.classAttribute1);
+    $("#classAttribute2").html(text.classAttribute2);
+    $("#classAttribute3").html(text.classAttribute3);
+    $("#classAttribute4").html(text.classAttribute4);
+    $("#classAttribute5").html(text.classAttribute5);
+    $("#classAttribute6").html(text.classAttribute6);
+    $("#classAttribute7").html(text.classAttribute7);
+    $("#classAttribute8").html(text.classAttribute8);
+    $("#classAttribute9").html(text.classAttribute9);
+    $("#javascript1").html(text.javascript1);
+    $("#javascript2").html(text.javascript2);
+    $("#javascript3").html(text.javascript3);
+    $("#javascript4").html(text.javascript4);
+    $("#javascript5").html(text.javascript5);
+    $("#javascript6").html(text.javascript6);
+    $("#javascript7").html(text.javascript7);
+    //    document.getElementById("html5").innerHTML = text.html5; //using JavaScript
+})

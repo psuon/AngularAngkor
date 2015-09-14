@@ -31,9 +31,20 @@ function startTime() {
     var h = today.getHours();
     var m = today.getMinutes();
     var s = today.getSeconds();
-    h = h % 12;
-    h = h ? h : 12; // the hour '0' should be '12'
-    var ampm = h >= 12 ? 'AM' : 'PM';
+
+    var ampm = '';
+    if (h >= 12) {
+        ampm = 'PM';
+    } else {
+        ampm = 'AM';
+    }
+
+    //    h = h % 12;
+
+    //    h = h ? h : 12; // the hour '0' should be '12'
+    //    var ampm = h >= 12 ? 'PM' : 'AM';
+
+
     m = m < 10 ? '0' + m : m;
     s = s < 10 ? '0' + s : s;
     // add a zero in front of numbers<10
