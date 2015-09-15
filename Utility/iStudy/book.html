@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Testing</title>
+
+    <link rel="stylesheet" href="StyleSheets/../../../StyleSheets/amazonaws.css">
+    <link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Learn.css">
+    <link rel="stylesheet" href="../../StyleSheets/main.css">
+    <link rel="stylesheet" href="../../StyleSheets/styles.css">
+    <link rel="shortcut icon" href="../../StyleSheets/angkor.ico">
+
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="event.js"></script>
+    <script src="book.js"></script>
+    <script src="services.js"></script>
+</head>
+
+<body>
+
+    <!-----------------------------   Part 1 Menu --------------------------------->
+    <div id='cssmenu'>
+        <ul>
+
+            <li>
+                <a href='../../index.html'>
+                    <i class="fa fa-home fa-lg"></i><span> Home </span></a>
+            </li>
+            <li class='active has-sub'><a href='#'><span>Entertainments</span></a>
+                <ul>
+                    <li class=''><a href='../../Entertainments/Gallery/gallery.html'><span>Gallery</span></a>
+                    </li>
+                    <li class=''><a href='../../Entertainments/Music/music.html'><span>Music</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class='active has-sub'><a href='#'><span>Games</span></a>
+                <ul>
+                    <li class=''><a href='../../Games/Snake/snake.html'><span>Snake</span></a>
+                    </li>
+                    <li class=''><a href='../../Games/TicTacToe/tictactoe.html'><span>Tic Tac Toe</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class='active has-sub'><a href='#'><span>Utilities</span></a>
+                <ul>
+                    <li class=''><a href='web_development.html'><span>iStudy</span></a>
+                    </li>
+                    <li class=''><a href='../../Utility/Calculator/calculator.html'><span>Calculator</span></a>
+                    </li>
+                    <li class=''><a href='../../Utility/ToDoList/todolist.html'><span>To Do List</span></a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="pull-right"><a href="signup.html">Sign Up</a></li>
+            <li class="pull-right"><a href="#">Log In</a></li>
+            <li class="pull-right"><a href="#">Help</a></li>
+        </ul>
+    </div>
+    <!---------------------------- Side Menu ------------------------------------------------>
+
+    <div class="item" style="display: inline-block; padding-top: 25px;">
+        <div class="col-md-12">
+            <div class="list-group">
+                <div class="menu">
+                    <a class="list-group-item" href="#"><i class="fa fa-book fa-fw"></i> Library </a>
+                    <div class="navigation myList">
+                        <ul id="menu" style="display: inline-block;">
+                            <li class="myList"><a href="#html">HTML</a></li>
+                            <li class="myList"><a href="#css">CSS</a></li>
+                            <li class="myList"><a href="#javaScript">JavaScript</a></li>
+                            <li class="myList"><a href="#angularJs">AngularJs</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <a class="list-group-item" href="#"><i class="fa fa-check-square fa-fw"></i> To Do Lists </a>
+
+            </div>
+        </div>
+    </div>
+    <!---------------------------- Content ------------------------------------------------>
+
+    <div class="col-md-10 pull-right" id="maincontent" style="display: inline-block;">
+        <div id="html">
+            <h1> HTML</h1>
+            <p id="html3"> </p>
+        </div>
+        <div id="css">
+            <h1> CSS </h1></div>
+        <div id="javaScript">
+            <h1> JavaScript </h1></div>
+        <div id="angularJs">
+            <h1> AngularJs </h1></div>
+    </div>
+
+</body>
+
+</html>

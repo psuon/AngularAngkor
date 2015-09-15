@@ -107,3 +107,9 @@ p {
     left: 50%;
     top: 50%;
 }
+
+.myList {
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}

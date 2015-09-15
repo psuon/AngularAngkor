@@ -31,6 +31,7 @@ var main = function () {
 
 
         $(this).children('.navigation').toggle("slide");
+        $('.myList').click(false);
         $(this).addClass('current');
 
     });
