@@ -22,7 +22,7 @@ var main = function () {
         $(this).children('.description').slideToggle(500);
         $(this).addClass('current');
         $('.description').click(false);
-        $('i', this).toggleClass("fa-plus fa-minus");
+        $('i', this).toggleClass("fa-plus fa-remove");
     });
 
     $('.navigation').hide();

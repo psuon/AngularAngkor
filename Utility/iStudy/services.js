@@ -1,42 +1,44 @@
-var text = {};
-$.getJSON('iStudyHtml.json', function (data) {
+/*jslint browser: true*/
+/*global $, jQuery, alert*/
+
+//Html and CSS
+var html = {};
+$.getJSON('JSON/htmlAndCss.json', function (data) {
+    "use strict";
     console.log(data);
-    text = data;
-    $("#questionHtml").html(text.questionHtml);
-    $("#html1").html(text.html1);
-    $("#html2").html(text.html2);
-    $("#html3").html(text.html3);
-    $("#html5").html(text.html5);
-    $("#htmlElements1").html(text.htmlElements1);
-    $("#htmlElements2").html(text.htmlElements2);
-    $("#htmlElements3").html(text.htmlElements3);
-    $("#htmlElements4").html(text.htmlElements4);
-    $("#htmlElements5").html(text.htmlElements5);
-    $("#attribute1").html(text.attribute1);
-    $("#attribute2").html(text.attribute2);
-    $("#css1").html(text.css1);
-    $("#css2").html(text.css2);
-    $("#css3").html(text.css3);
-    $("#css4").html(text.css4);
-    $("#css5").html(text.css5);
-    $("#css6").html(text.css6);
-    $("#css7").html(text.css7);
-    $("#css8").html(text.css8);
-    $("#classAttribute1").html(text.classAttribute1);
-    $("#classAttribute2").html(text.classAttribute2);
-    $("#classAttribute3").html(text.classAttribute3);
-    $("#classAttribute4").html(text.classAttribute4);
-    $("#classAttribute5").html(text.classAttribute5);
-    $("#classAttribute6").html(text.classAttribute6);
-    $("#classAttribute7").html(text.classAttribute7);
-    $("#classAttribute8").html(text.classAttribute8);
-    $("#classAttribute9").html(text.classAttribute9);
-    $("#javascript1").html(text.javascript1);
-    $("#javascript2").html(text.javascript2);
-    $("#javascript3").html(text.javascript3);
-    $("#javascript4").html(text.javascript4);
-    $("#javascript5").html(text.javascript5);
-    $("#javascript6").html(text.javascript6);
-    $("#javascript7").html(text.javascript7);
+    html = data;
+    $("#questionHtml").html(html.questionHtml);
+    $("#html1").html(html.html1);
+    $("#htmlElements1").html(html.htmlElements1);
+    $("#attribute1").html(html.attribute1);
+    $("#css1").html(html.css1);
+    $("#css2").html(html.css2);
+    $("#css3").html(html.css3);
+    $("#css4").html(html.css4);
+    $("#classAttribute1").html(html.classAttribute1);
+    $("#classAttribute2").html(html.classAttribute2);
+    $("#classAttribute3").html(html.classAttribute3);
+    $("#classAttribute4").html(html.classAttribute4);
+    $("#classAttribute5").html(html.classAttribute5);
+    $("#color1").html(html.color1);
+    $("#color2").html(html.color2);
+    $("#fontFamily1").html(html.fontFamily1);
+    $("#fontFamily2").html(html.fontFamily2);
+    $("#fontSize1").html(html.fontSize1);
+    $("#fontSize2").html(html.fontSize2);
+    $("#borderPaddingMargin1").html(html.borderPaddingMargin1);
+    $("#borderPaddingMargin2").html(html.borderPaddingMargin2);
+
     //    document.getElementById("html5").innerHTML = text.html5; //using JavaScript
-})
+});
+
+//JavaScript
+var javascript = {};
+$.getJSON('JSON/JavaScript.json', function (data) {
+    "use strict";
+    javascript = data;
+    $("#javascript1").html(javascript.javascript1);
+    $("#javascript2").html(javascript.javascript2);
+    $("#javascript3").html(javascript.javascript3);
+    $("#javascript4").html(javascript.javascript4);
+});

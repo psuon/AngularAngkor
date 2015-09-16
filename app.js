@@ -39,9 +39,9 @@ function startTime() {
         ampm = 'AM';
     }
 
-    //    h = h % 12;
+    h = h % 12;
 
-    //    h = h ? h : 12; // the hour '0' should be '12'
+    h = h ? h : 12; // the hour '0' should be '12'
     //    var ampm = h >= 12 ? 'PM' : 'AM';
 
 

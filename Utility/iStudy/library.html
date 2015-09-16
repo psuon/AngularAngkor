@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Testing</title>
+    <title>Library</title>
 
     <link rel="stylesheet" href="StyleSheets/../../../StyleSheets/amazonaws.css">
     <link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
@@ -13,7 +13,7 @@
 
     <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
     <script src="event.js"></script>
-    <script src="book.js"></script>
+    <script src="library.js"></script>
     <script src="services.js"></script>
 </head>
 
@@ -45,11 +45,13 @@
             </li>
             <li class='active has-sub'><a href='#'><span>Utilities</span></a>
                 <ul>
-                    <li class=''><a href='web_development.html'><span>iStudy</span></a>
+                    <li class=''><a href='../../Utility/iStudy/iStudy.html'><span>iStudy</span></a>
                     </li>
                     <li class=''><a href='../../Utility/Calculator/calculator.html'><span>Calculator</span></a>
                     </li>
                     <li class=''><a href='../../Utility/ToDoList/todolist.html'><span>To Do List</span></a>
+                    </li>
+                    <li class=''><a href='library.html'><span>Library</span></a>
                     </li>
                 </ul>
             </li>
@@ -59,7 +61,11 @@
             <li class="pull-right"><a href="#">Help</a></li>
         </ul>
     </div>
-    <!---------------------------- Side Menu ------------------------------------------------>
+    <!---------------------------- Part 2 Loading icon ---------------------------------->
+    <div id="load">
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+    </div>
+    <!---------------------------- Part 3 Side Menu ------------------------------------->
 
     <div class="item" style="display: inline-block; padding-top: 25px;">
         <div class="col-md-12">
@@ -76,25 +82,90 @@
                     </div>
 
                 </div>
+                <a class="list-group-item" href="#"><i class="fa fa-picture-o fa-fw"></i> Pictures </a>
                 <a class="list-group-item" href="#"><i class="fa fa-check-square fa-fw"></i> To Do Lists </a>
 
             </div>
         </div>
     </div>
-    <!---------------------------- Content ------------------------------------------------>
+
+    <!------------------------- Content ---------------------------------------------->
 
     <div class="col-md-10 pull-right" id="maincontent" style="display: inline-block;">
         <div id="html">
             <h1> HTML</h1>
-            <p id="html3"> </p>
+            <p id="html1"> </p>
+            <ul>
+                <li id="htmlElements1"> </li>
+            </ul>
+            <ul>
+                <li id="attribute1"> </li>
+            </ul>
+
         </div>
+
+        <!---------------------------- CSS ---------------------------------------------->
         <div id="css">
-            <h1> CSS </h1></div>
+            <h1> CSS </h1>
+            <p id="css1"> </p>
+            <ul>
+                <li id="css2"> </li>
+            </ul>
+            <p id="css3"> </p>
+            <ul>
+                <li id="css4"> </li>
+            </ul>
+            <p id="classAttribute1"> </p>
+
+            <p id="classAttribute2"></p>
+            <ul>
+                <li id="classAttribute3"> </li>
+                <br />
+            </ul>
+            <p id="classAttribute4"></p>
+            <ul>
+                <li id="classAttribute5"> </li>
+            </ul>
+            <p id="color1"></p>
+            <ul>
+                <li id="color2"> </li>
+            </ul>
+            <p id="fontFamily1"></p>
+            <ul>
+                <li id="fontFamily2"> </li>
+            </ul>
+            <p id="fontSize1"></p>
+            <ul>
+                <li id="fontSize2"> </li>
+            </ul>
+            <p id="borderPaddingMargin1"></p>
+            <ul>
+                <li id="borderPaddingMargin2"> </li>
+            </ul>
+
+        </div>
+
+        <!---------------------------- JavaScript --------------------------------------------->
         <div id="javaScript">
-            <h1> JavaScript </h1></div>
+            <h1> JavaScript </h1>
+            <p id="javascript1"> </p>
+            <ul>
+                <li id="javascript2"> </li>
+            </ul>
+            <p id="javascript3"> </p>
+            <ul>
+                <li id="javascript4"></li>
+            </ul>
+        </div>
+
+        <!---------------------------- AngularJs --------------------------------------------->
         <div id="angularJs">
-            <h1> AngularJs </h1></div>
+            <h1> AngularJs </h1>
+        </div>
+
     </div>
+
+    <div class="footer"></div>
 
 </body>
 

@@ -1,0 +1,9 @@
+{
+    "javascript1": "JavaScript and JQuery are used to make web pages interactive.",
+
+    "javascript2": "JavaScript is a programming language used to create web pages that change in response to user actions. <br /> JQuery is a collection of prewritten JavaScript code that lets us easily create interactive effects on our site. Below is an interaction made with JavaScript and JQuery.",
+
+    "javascript3": "<b>Summary: JavaScript </b>is a programming language used to add interactivity to a web page. <b> JQuery </b>simplifies JavaScript syntax and makes it easier to build interactive web pages that work across multiple browsers. JQuery enables us to do three main things on a web page:",
+
+    "javascript4": "<b> Events.</b> Respond to user interactions. <br /> <b> DOM Manipulation.</b> Modify HTML elements on the page. <br /> <b> Effects.</b> Add animations."
+}

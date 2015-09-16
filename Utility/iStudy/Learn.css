@@ -113,3 +113,12 @@ p {
     margin-top: 5px;
     margin-bottom: 2px;
 }
+
+.footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background: #3c3b3b;
+}
