@@ -1,0 +1,99 @@
+{
+    "questionHtml": "<b>Web pages are created using HTML and CSS. What do these languages do?</b>",
+    "html1": "HTML is used to establish a page's structure. It also lets us add text, links and images <br/> CSS is used to control the design and layout of the page <br /> HTML stands for HyperText Markup Language. The HyperText part refers to the fact that HTML allows you to create links that allow visitors to move from one page to another quickly and easily. A Markup language allows you to annotate text, and these annotations provides additional meaning to the contents of a document. We add code around the original text we want to display and the browser then uses the code to display the page correctly. So the tags we add are the markup. <br /> HTML5 is a W3C specification that defines the fifth major revision of the Hypertext Markup Language (HTML). One of the major changes in HTML5 is in respect to how HTML addresses Web applications.",
+
+    "htmlElements1": "HTML elements are the building blocks of web pages <br /> HTML elements describe each piece of content on a web page so that the web browser knows how to display it. <br /> HTML elements are usually made up of two <b> tags </b>: an opening tag and a closing tag. <br /> Each HTML element tells the browser something about the information that sits between its opening and closing tags. <br /> Opening tags can carry attributes, which tell us more about the content of that element.",
+
+    "attribute1": "Attributes provide additional information about the contents of an element. They appear on the opening tag of the element and are made up of two parts: a <b>name </b> and a <b> value </b>, separated by an equals sign. <br /> Attributes require a <b> name </b> and <b> value </b>.",
+
+    "css1": "A web page is a collection of HTML elements. CSS is used to control the appearance of an HTML element.",
+
+    "css2": "HTML is used to write a web page's content. CSS is used to define the design and layout of the page",
+
+    "css3": "<b> CSS Rules </b>",
+
+    "css4": "CSS uses <b> rules </b>to style HTML elements. A CSS rule starts with a <b> selector </b>. A selector specifies which HTML elements to style. Inside the braces <b> { } </b>, a <b> property </b>and its value define what aspect of the elements to style. Setting the color property to <b> red </b>changes the color of that element to red. Together, a selector and its property-value pairs are called <b> CSS rule. </b>",
+
+    "classAttribute1": "HTML elements can be CSS selectors, but they're not the only selectors available. Another available selector is the <b> class selector. </b>",
+
+    "classAttribute2": "<b> Class Selector </b>",
+
+    "classAttribute3": "The <b> class </b>can be targeted from CSS by using a dot <b>(.)</b> For example: The <b>.header</b> selector applies to a grouping  elements nested inside class=\"header\" <br /> In this way, classes are useful to specifically target groups of HTML elements. ",
+
+    "classAttribute4": "<b> Combining Selectors </b>",
+
+    "classAttribute5": "It's possible to be even more specific by combining classes and element names. <br /> In this way, a CSS rule targets specific HTML elements on the page and applies a style to them.",
+
+    "color1": "<b> Color </b>",
+
+    "color2": "The <b> color </b> property sets the color of an HTML element's text. <br /> We can use color names to change the text's color. But this only works for 140 colors. <br /> Instead, we can use <b> RGB values or hexadecimal numbers. </b> They can represent millions of colors. RGB values and hex numbers express colors as different amounts of red, green and blue.",
+
+    "fontFamily1": "<b> Font-family </b>",
+
+    "fontFamily2": "The <b> Font-Family </b> property sets the font of an HTML element's text. <br /> Three fonts commonly used with <b>  font-family </b> are: <br /> <b>font-family: Arial, Helvetica, sans-serif; <br /> font-family: \"Times New Roman\", Times, serif; <br /> font-family: \"Courier New\" , Courier, monospace; </b>",
+
+    "fontSize1": "<b> Font-size </b>",
+
+    "fontSize2": "The <b> font-size </b> property sets the size of an HTML element's text. <br /> Text size can be measured in <b> pixels, ems, </b> or <b> rems. </b>",
+
+    "borderPaddingMargin1": "<b> Border Padding Margin: </b>",
+
+    "borderPaddingMargin2": "The <b> border </b>  property sets the width, styles, and color of an element's border. <br /> The <b> padding </b> property creates space between the content and border of an element.<br /> The <b> padding </b>  property sets the padding on all sides. It's possible to set the padding on each side. <br /> The properties <b> padding-top, padding-bottom, padding-left,  </b> and <b> padding-right </b> are available to set the padding on each side of an HTML element. <br /> The <b> margin </b> property creates space for multiple HTML elements. The margin is a transparent area outside the border of an element. <br /> The <b> margin </b> property sets the margin on all side. It's possible to set the margin on each side. <br /> The properties <b>  margin-top, margin-bottom, margin-left, </b> and <b> margin-right </b> are available to set the margin on each side of an HTML element. <br /> The properties <b>  margin-left, </b> and <b> margin-right </b> are available to set the <b> margin  </b> on either side of an HTML element. If one of these properties is set to <b> auto </b>, then it will take as much as possible. <br /> To move the HTML element to the far left of the screen, use <b> margin-right: auto.</b> This will maximize the amount of space there is on the right side margin, pushing the element to the far left. <br /> To center an element, <b> set margin-right: auto </b> and <b> margin-left: auto. </b> The margin to the left and right will be equal and the element will be centered.",
+
+    "headAndBody1": "<b> Head and Body </b>",
+
+    "headAndBody2": " The <b> head </b> element contains information that the web browser needs to display the page. <br /> The <b> link </b> element tells the browser where to find the CSS file used to style the page. <br /> The <b> rel </b> attribute tells the browser that the file being linked is a CSS file to style the page. <br /> The <b> href </b> attribute gives the browser the path to the CSS file. <br /> The <b> body </b> element contains the content of the page that shows up in the web browser.",
+
+    "display1": "<b> Display </b>",
+
+    "display2": " CSS treats HTML elements like boxes. A box can be \"block\" or \"inline\". <br /> Block elements display on a new line (e.g. <b> h1, p, ul, li </b>). <br /> Inline elements display on the same line as their neighboring elements. (e.g. <b> img, a </b>) <br /> It is possible to change whether a box is block or inline by using the display property",
+
+    "position1": "<b> Position </b>",
+
+    "position2": "The <b> position </b> property is used to move an HTML element to a precise position on the page. <br /> By <b> setting position: relative, </b> you can use the CSS <b> properties top, left, bottom, </b> and <b> right </b> to shift an element away from where it would have normally appeared on the page.",
+
+    "float1": "<b> FLoat </b>",
+
+    "float2": "The <b> float </b> property moves an element to the far left or far right of the page. <br /> For example: setting <b> float: right </b> pulls an element to the far right side of the page, and the surrounding text wraps around it.",
+
+    "javaScript1": "<b> Instruction </b> is called a statement - step by step; each instruction end with semicolon ; called statement. For example: document.write(\"text one\"); <br /> <b> Null </b> is no value at all, it is not zero",
+
+    "javaScript2": "<b> Function </b> is a mini program that we can use anytime we want. <br /> For example: a play or pause button on YouTube, etc. <br /> Whenever they say \"call the function\" means use the function. Whenever they say pass - (a technical term) give additional information to a function, It called passing information into a parameter. <br /> For example: ",
+
+    "javaScript3": "(x) is a parameter and when you give information into it, it called passing information.<br /> <br />",
+
+    "javaScript4": "<b> Parameters with function: </b> additional information in order for your function to work - it is a variable; In order to make a parameters, you need to write a name of a variable. Apples is a function name and consist of two variables \"one\" and \"two\" <br /> <br />",
+
+    "javaScript5": "<b>The Return Statement</b> Return statement won't do anything besides holding a value for you. You have to use it somehow. <br /> <br />",
+
+    "javaScript6": "<b> Calling a Function from Another Function </b> -- Using a function from another function. In order to use a function, you need to call it at the end.  <br /> <br />",
+
+    "javaScript7": "<b>Global and Local Variable </b> Global variable is any variables that made outside the function and Local variable is any variables that create inside of the body of the function. Global variable can be access anywhere in the program including the inner of the function. <br /> <br /> ",
+
+    "javaScript8": "<b>Nesting (if statement inside another if statement) </b> <br /> <br />",
+
+    "javaScript9": "<b> Switch Statement </b> Switch statement is more organize and easy to maintain than if else statement when we have to deal a lot of this condition. If all the cases don't match, we use default at the end. <br /> <br />",
+
+    "javaScript10": "<b>For Loop </b> Loop is save time, it runs through your program when you write once and let its run as many times as you want. <br /> It takes 3 differnt statements inside the for loop condition. <br /> The first statement is variable - the starting point - usually 0 or 1 <br /> The second statement is the ending point. <br /> The third statement is - how much you want to increment or to go up by <br /> <br />",
+
+    "javaScript11": "<b>While Loop </b> This is the same of for Loop, but it is set up different - syntax - while loop is a bit easier to understand <br /> <br />",
+
+    "javaScript12": "<b>Do while Loop </b> It will run the code once before testing the condition - this will guarantee that the code run at least once even if that condition is fault. <br /> For example: when the condition is fault and the condition ran at least once. <br /> <br />",
+
+    "javaScript13": "<b> Object Oriented Programming </b> - An Object - a piece of data that has it own property and method. <br /> Let say object is me myself - Venz. <br /> Property are the variables; For example: These are my properties: Hair: black, Car: white, Eye: brown, etc... <br /> Method are all the things that object does; For example: play video game, eat ice cream, etc... <br /> Let look at Property and Method that are already built-in in JavaScript. <br /> <b> Property </b> .length is a built-in property in JavaScript, this .length is basically tell you a little more about this object. <br /> <b> Method </b> document.write - Document is an object - the white screen empty webpage <b> .write </b> is a method - it writes text on the web page. <br /> <br />",
+
+    "javaScript14": "<b> Creating Our Own Objects </b> One of the way and the easiest way to create our own object is to use the <u>constructor function</u> An object is a blueprint. <br /> Whenever we want to take a value and assign it to a person, we use \"this\" and then we can call this method - \"this\" to determine that we working with this current object. Create a new object is also called create a new instance of an object; create a new object just like create a new variable. <br /> <br />",
+
+    "javaScript15": "<b> Object Initializers </b> Object initializer is a list of zero or more pairs of property names and associated values of an object, we use this when we have one or two object of the same type, but if we create a lot of person object - it is better to use a constructor function <br /> <br />",
+
+    "javaScript16": "<b> Adding Methods to our Objects </b> <br /> A method is a function. This.yearsUntilRetire = yearsLeft; <br /> Explained: it is an anonymous type when you say this.yearsUntilRetire = yearsLeft; we are saying that yearsUntilRetire type is a function because yearsLeft is a function and we set them equal to that. we don't include () after yearsLeft because it would call/use the method, So when we do document.write(bucky.yearsUntilRetire); without parenthesis it prints out the function because yearsUntilRetire is a function. It as an anonymous type that got assigned to yearsLeft which made the type a function. When you add parenthesis it runs the function and that is why when you do (bucky.yearsUntilRetire()); it returns the expected value. <br /> <br />",
+
+    "jQuery1": "JavaScript and JQuery are used to make web pages interactive.",
+
+    "jQuery2": "JavaScript is a programming language used to create web pages that change in response to user actions. <br /> JQuery is a collection of prewritten JavaScript code that lets us easily create interactive effects on our site. Below is an interaction made with JavaScript and JQuery.",
+
+    "jQuery3": "<b>JavaScript </b>is a programming language used to add interactivity to a web page. <b> JQuery </b>simplifies JavaScript syntax and makes it easier to build interactive web pages that work across multiple browsers. JQuery enables us to do three main things on a web page:",
+
+    "jQuery4": "<b> Events.</b> Respond to user interactions. <br /> <b> DOM Manipulation.</b> Modify HTML elements on the page. <br /> <b> Effects.</b> Add animations."
+
+}
