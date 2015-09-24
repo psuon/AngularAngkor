@@ -108,6 +108,9 @@ p {
     top: 50%;
 }
 
+
+/*side Menu */
+
 .myList {
     list-style-type: none;
     margin-top: 5px;
@@ -119,7 +122,8 @@ p {
 #bootstrap > ul:last-child,
 #javaScript > ul:last-child,
 #jQuery > ul:last-child,
-#angularJs > ul:last-child {
+#angularJs > ul:last-child,
+#git > tr:last-child {
     padding-bottom: 30px;
 }
 
@@ -134,4 +138,43 @@ p {
 
 ul {
     list-style-type: none;
+}
+
+
+/*table for Git*/
+
+table {
+    font-family: 'Arial';
+    margin: 25px auto;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    border-bottom: 2px solid #00cccc;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+}
+
+table tr:hover {
+    background: #f4f4f4;
+}
+
+table tr:hover td {
+    color: #555;
+}
+
+table th,
+table td {
+    color: #999;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+}
+
+table th {
+    background: #00cccc;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+table th.last {
+    border-right: none;
 }

@@ -57,6 +57,15 @@ $.getJSON('JSON/data.json', function (data) {
     $("#jQuery2").html(text.jQuery2);
     $("#jQuery3").html(text.jQuery3);
     $("#jQuery4").html(text.jQuery4);
+    $("#git1").html(text.git1);
+    $("#git2").html(text.git2);
+    $("#git3").html(text.git3);
+    $("#git4").html(text.git4);
+    $("#git5").html(text.git5);
+    $("#git6").html(text.git6);
+    $("#git7").html(text.git7);
+    $("#git8").html(text.git8);
+    $("#git9").html(text.git9);
 
     //    document.getElementById("html5").innerHTML = text.html5; //using JavaScript
 });

@@ -25,11 +25,11 @@ var main = function () {
         $('i', this).toggleClass("fa-plus fa-remove");
     });
 
-    $('.navigation').hide();
+    $('.navigation').hide(); //when the page first load, it hide the nav
+    $('.noToggle').click(false); // No toggle on picture and to do list
+
     $('.menu').click(function () {
         $('.menu').removeClass('current');
-
-
         $(this).children('.navigation').toggle("slide");
         $('.myList').click(false);
         $(this).addClass('current');

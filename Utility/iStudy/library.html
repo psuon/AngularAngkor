@@ -12,6 +12,7 @@
     <link rel="shortcut icon" href="../../StyleSheets/angkor.ico">
 
     <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
     <script src="event.js"></script>
     <script src="library.js"></script>
     <script src="service.js"></script>
@@ -70,28 +71,32 @@
     <div class="item" style="display: inline-block; padding-top: 25px;">
         <div class="col-md-12">
             <div class="list-group">
-                <div class="menu">
+                <div class="menu" id="menu">
                     <a class="list-group-item" href="#"><i class="fa fa-book fa-fw"></i> Library </a>
                     <div class="navigation myList">
-                        <ul id="menu" style="display: inline-block;">
+                        <ul style="display: inline-block;">
                             <li class="myList"><a href="#html">HTML</a></li>
                             <li class="myList"><a href="#css">CSS</a></li>
                             <li class="myList"><a href="#bootstrap">Bootstrap</a></li>
                             <li class="myList"><a href="#javaScript">JavaScript</a></li>
                             <li class="myList"><a href="#jQuery">JQuery</a></li>
                             <li class="myList"><a href="#angularJs">AngularJs</a></li>
+                            <li class="myList"><a href="#git">Git</a></li>
                         </ul>
+
+
                     </div>
-
+                    <a class="list-group-item noToggle" href="#pic">
+                        <i class="fa fa-picture-o fa-fw"></i> Pictures </a>
+                    <a class="list-group-item noToggle" href="#toDoList">
+                        <i class="fa fa-check-square fa-fw"></i> To Do Lists </a>
                 </div>
-                <a class="list-group-item" href="#"><i class="fa fa-picture-o fa-fw"></i> Pictures </a>
-                <a class="list-group-item" href="#"><i class="fa fa-check-square fa-fw"></i> To Do Lists </a>
-
             </div>
         </div>
     </div>
 
     <!------------------------- Content ---------------------------------------------->
+    <!------------------------- HTML ---------------------------------------------->
 
     <div class="col-md-10 pull-right" id="maincontent" style="display: inline-block;">
         <div id="html">
@@ -206,7 +211,50 @@
             <h1> AngularJs </h1>
         </div>
 
+        <!---------------------------- Git --------------------------------------------->
+        <div id="git">
+            <h1> Git </h1>
+            <p id="git1"> </p>
+            <table class="zebra">
+                <thead>
+                    <tr>
+                        <th>Syntax</th>
+                        <th>Explaination</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="git2"></td>
+                        <td id="git3"></td>
+                    </tr>
+                    <tr>
+                        <td id="git4"></td>
+                        <td id="git5"></td>
+                    </tr>
+                    <tr>
+                        <td id="git6"></td>
+                        <td id="git7"></td>
+                    </tr>
+                    <tr>
+                        <td id="git8"></td>
+                        <td id="git9"></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div id="pic">
+            <h1> Picture </h1>
+        </div>
+
+        <div id="toDoList">
+            <h1> To Do List </h1>
+        </div>
+
     </div>
+
 
     <div class="footer"></div>
 

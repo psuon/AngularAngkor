@@ -94,6 +94,24 @@
 
     "jQuery3": "<b>JavaScript </b>is a programming language used to add interactivity to a web page. <b> JQuery </b>simplifies JavaScript syntax and makes it easier to build interactive web pages that work across multiple browsers. JQuery enables us to do three main things on a web page:",
 
-    "jQuery4": "<b> Events.</b> Respond to user interactions. <br /> <b> DOM Manipulation.</b> Modify HTML elements on the page. <br /> <b> Effects.</b> Add animations."
+    "jQuery4": "<b> Events.</b> Respond to user interactions. <br /> <b> DOM Manipulation.</b> Modify HTML elements on the page. <br /> <b> Effects.</b> Add animations.",
+
+    "git1": "<b> Git: </b> A Program that let you keep track of changes in files; it's let you manage all of the versions of the same exact files - one of the best program for managing source code. Git is a version control tool, there are other similar tools also. When developing a program, you may have to keep updating multiple files and keep releasing new versions of the program. A version control tool like GIT, basically helps you to clearly identify what has changed between the OLD version and NEW version. The version control should also help multiple developers to work on the same Program, but on different issues.<br /> Repository = Project <br /> Working copy > Staging area > Repository",
+
+    "git2": "<b> git --version </b>",
+
+    "git3": "The version of git ",
+
+    "git4": "<b> git config --global user.name \"venz dior\" </b> ",
+
+    "git5": "Change the configuration - configure my setting, change my user name to venz dior",
+
+    "git6": "<b> pwd </b> ",
+
+    "git7": "tell you where you located right now ",
+
+    "git8": "<b> ls </b> ",
+
+    "git9": "dir in command; it list all the files "
 
 }
