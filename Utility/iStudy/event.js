@@ -52,3 +52,20 @@ function printToday() {
     var today = new Date();
     document.write(today.toDateString());
 }
+
+//var myApp = angular.module('myApp', []);
+//
+//myApp.controller('myCtrl', ['$scope', function ($scope) {
+//
+//    $scope.names = ['John', 'Jessie'];
+//
+//}]);
+
+
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function ($scope, $http) {
+    $http.get('JSON/data.json')
+        .success(function (response) {
+            $scope.gitDocument = response.git;
+        });
+});

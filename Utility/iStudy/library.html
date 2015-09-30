@@ -223,30 +223,19 @@
 
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td id="git2"></td>
-                        <td id="git3"></td>
-                    </tr>
-                    <tr>
-                        <td id="git4"></td>
-                        <td id="git5"></td>
-                    </tr>
-                    <tr>
-                        <td id="git6"></td>
-                        <td id="git7"></td>
-                    </tr>
-                    <tr>
-                        <td id="git8"></td>
-                        <td id="git9"></td>
-                    </tr>
+                <tbody ng-app="myApp" ng-controller="myCtrl">
 
+                    <tr ng-repeat="x in gitDocument">
+                        <td> <b> {{ x.gitSyntax }} </b> </td>
+                        <td> {{ x.gitExplaination }} </td>
+                    </tr>
                 </tbody>
             </table>
         </div>
 
         <div id="pic">
             <h1> Picture </h1>
+
         </div>
 
         <div id="toDoList">
@@ -256,7 +245,7 @@
     </div>
 
 
-    <div class="footer"></div>
+    <!--    <div class="footer"></div>-->
 
 </body>
 
