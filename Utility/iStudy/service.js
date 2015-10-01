@@ -38,21 +38,6 @@ $.getJSON('JSON/data.json', function (data) {
     $("#float1").html(text.float1);
     $("#float2").html(text.float2);
     $("#javaScript1").html(text.javaScript1);
-    $("#javaScript2").html(text.javaScript2);
-    $("#javaScript3").html(text.javaScript3);
-    $("#javaScript4").html(text.javaScript4);
-    $("#javaScript5").html(text.javaScript5);
-    $("#javaScript6").html(text.javaScript6);
-    $("#javaScript7").html(text.javaScript7);
-    $("#javaScript8").html(text.javaScript8);
-    $("#javaScript9").html(text.javaScript9);
-    $("#javaScript10").html(text.javaScript10);
-    $("#javaScript11").html(text.javaScript11);
-    $("#javaScript12").html(text.javaScript12);
-    $("#javaScript13").html(text.javaScript13);
-    $("#javaScript14").html(text.javaScript14);
-    $("#javaScript15").html(text.javaScript15);
-    $("#javaScript16").html(text.javaScript16);
     $("#jQuery1").html(text.jQuery1);
     $("#jQuery2").html(text.jQuery2);
     $("#jQuery3").html(text.jQuery3);
@@ -60,4 +45,12 @@ $.getJSON('JSON/data.json', function (data) {
     $("#git1").html(text.git1);
 
     //    document.getElementById("html5").innerHTML = text.html5; //using JavaScript
+});
+
+var app = angular.module('myApp', ['ngSanitize']);
+app.controller('myCtrl', function ($scope, $http) {
+    $http.get('JSON/data.json')
+        .success(function (response) {
+            $scope.allDoc = response.theDocument;
+        });
 });

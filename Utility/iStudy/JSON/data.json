@@ -58,36 +58,6 @@
 
     "javaScript1": "<b> Instruction </b> is called a statement - step by step; each instruction end with semicolon ; called statement. For example: document.write(\"text one\"); <br /> <b> Null </b> is no value at all, it is not zero",
 
-    "javaScript2": "<b> Function </b> is a mini program that we can use anytime we want. <br /> For example: a play or pause button on YouTube, etc. <br /> Whenever they say \"call the function\" means use the function. Whenever they say pass - (a technical term) give additional information to a function, It called passing information into a parameter. <br /> For example: ",
-
-    "javaScript3": "(x) is a parameter and when you give information into it, it called passing information.<br /> <br />",
-
-    "javaScript4": "<b> Parameters with function: </b> additional information in order for your function to work - it is a variable; In order to make a parameters, you need to write a name of a variable. Apples is a function name and consist of two variables \"one\" and \"two\" <br /> <br />",
-
-    "javaScript5": "<b>The Return Statement</b> Return statement won't do anything besides holding a value for you. You have to use it somehow. <br /> <br />",
-
-    "javaScript6": "<b> Calling a Function from Another Function </b> -- Using a function from another function. In order to use a function, you need to call it at the end.  <br /> <br />",
-
-    "javaScript7": "<b>Global and Local Variable </b> Global variable is any variables that made outside the function and Local variable is any variables that create inside of the body of the function. Global variable can be access anywhere in the program including the inner of the function. <br /> <br /> ",
-
-    "javaScript8": "<b>Nesting (if statement inside another if statement) </b> <br /> <br />",
-
-    "javaScript9": "<b> Switch Statement </b> Switch statement is more organize and easy to maintain than if else statement when we have to deal a lot of this condition. If all the cases don't match, we use default at the end. <br /> <br />",
-
-    "javaScript10": "<b>For Loop </b> Loop is save time, it runs through your program when you write once and let its run as many times as you want. <br /> It takes 3 differnt statements inside the for loop condition. <br /> The first statement is variable - the starting point - usually 0 or 1 <br /> The second statement is the ending point. <br /> The third statement is - how much you want to increment or to go up by <br /> <br />",
-
-    "javaScript11": "<b>While Loop </b> This is the same of for Loop, but it is set up different - syntax - while loop is a bit easier to understand <br /> <br />",
-
-    "javaScript12": "<b>Do while Loop </b> It will run the code once before testing the condition - this will guarantee that the code run at least once even if that condition is fault. <br /> For example: when the condition is fault and the condition ran at least once. <br /> <br />",
-
-    "javaScript13": "<b> Object Oriented Programming </b> - An Object - a piece of data that has it own property and method. <br /> Let say object is me myself - Venz. <br /> Property are the variables; For example: These are my properties: Hair: black, Car: white, Eye: brown, etc... <br /> Method are all the things that object does; For example: play video game, eat ice cream, etc... <br /> Let look at Property and Method that are already built-in in JavaScript. <br /> <b> Property </b> .length is a built-in property in JavaScript, this .length is basically tell you a little more about this object. <br /> <b> Method </b> document.write - Document is an object - the white screen empty webpage <b> .write </b> is a method - it writes text on the web page. <br /> <br />",
-
-    "javaScript14": "<b> Creating Our Own Objects </b> One of the way and the easiest way to create our own object is to use the <u>constructor function</u> An object is a blueprint. <br /> Whenever we want to take a value and assign it to a person, we use \"this\" and then we can call this method - \"this\" to determine that we working with this current object. Create a new object is also called create a new instance of an object; create a new object just like create a new variable. <br /> <br />",
-
-    "javaScript15": "<b> Object Initializers </b> Object initializer is a list of zero or more pairs of property names and associated values of an object, we use this when we have one or two object of the same type, but if we create a lot of person object - it is better to use a constructor function <br /> <br />",
-
-    "javaScript16": "<b> Adding Methods to our Objects </b> <br /> A method is a function. This.yearsUntilRetire = yearsLeft; <br /> Explained: it is an anonymous type when you say this.yearsUntilRetire = yearsLeft; we are saying that yearsUntilRetire type is a function because yearsLeft is a function and we set them equal to that. we don't include () after yearsLeft because it would call/use the method, So when we do document.write(bucky.yearsUntilRetire); without parenthesis it prints out the function because yearsUntilRetire is a function. It as an anonymous type that got assigned to yearsLeft which made the type a function. When you add parenthesis it runs the function and that is why when you do (bucky.yearsUntilRetire()); it returns the expected value. <br /> <br />",
-
     "jQuery1": "JavaScript and JQuery are used to make web pages interactive.",
 
     "jQuery2": "JavaScript is a programming language used to create web pages that change in response to user actions. <br /> JQuery is a collection of prewritten JavaScript code that lets us easily create interactive effects on our site. Below is an interaction made with JavaScript and JQuery.",
@@ -98,131 +68,167 @@
 
     "git1": "<b> Git: </b> A Program that let you keep track of changes in files; it's let you manage all of the versions of the same exact files - one of the best program for managing source code. Git is a version control tool, there are other similar tools also. When developing a program, you may have to keep updating multiple files and keep releasing new versions of the program. A version control tool like GIT, basically helps you to clearly identify what has changed between the OLD version and NEW version. The version control should also help multiple developers to work on the same Program, but on different issues.<br /> Repository = Project <br /> Working copy > Staging area > Repository",
 
-    "git": [
-        {
-            "gitSyntax": "git --version ",
-            "gitExplaination": "The version of git "
-        },
-        {
-            "gitSyntax": "git config --global user.name \"venz dior\" ",
-            "gitExplaination": "Change the configuration - configure my setting, change my user name to venz dior"
-        },
-        {
-            "gitSyntax": " pwd  ",
-            "gitExplaination": "tell you where you located right now"
-        },
-        {
-            "gitSyntax": " ls ",
-            "gitExplaination": "dir in command; it list all the files "
-        },
-        {
-            "gitSyntax": "git add .",
-            "gitExplaination": "Let Git know that we make some changes in the project - add all the changes to our projects. The dot means folder or directory  - adding to a staging area"
-        },
-        {
-            "gitSyntax": "git commit -m \"blahblah\"",
-            "gitExplaination": "Inside the quote are just messages/comments"
-        },
-        {
-            "gitSyntax": "git config --list",
-            "gitExplaination": "List all of your setting"
-        },
-        {
-            "gitSyntax": "Clear",
-            "gitExplaination": "Cls in command prompt - clear screen"
-        },
-        {
-            "gitSyntax": "git config user.name",
-            "gitExplaination": "To review one setting - user name: Venz Dior"
-        },
-        {
-            "gitSyntax": "git log",
-            "gitExplaination": "How to view all your commit history"
-        },
-        {
-            "gitSyntax": "git log --author=\"venz\"",
-            "gitExplaination": "Show the commit from one specific person"
-        },
-        {
-            "gitSyntax": "git status",
-            "gitExplaination": "To see if there are files that have not commit, etc."
-        },
-        {
-            "gitSyntax": "git add second.txt",
-            "gitExplaination": "Commit specific file that name \"second.txt\" instead of committing all file using git add ."
-        },
-        {
-            "gitSyntax": "git diff",
-            "gitExplaination": "Viewing the changes that you made between repository and working copy"
-        },
-        {
-            "gitSyntax": "git diff --staged",
-            "gitExplaination": "Viewing the changes that you made between repository and staging area"
-        },
-        {
-            "gitSyntax": "git rm third.txt",
-            "gitExplaination": "Delete files - i.e - remove the third.txt file from the repository and working copy (don't forget to commit because by committing, it taking a snap shot of that point in time)"
-        },
-        {
-            "gitSyntax": "git reset HEAD <file> <br /> git reset -- <file>",
-            "gitExplaination": "Remove from staging area to working copy"
-        },
-        {
-            "gitSyntax": "git checkout -- <file>",
-            "gitExplaination": "Bring it back - take something from repository make it to working copy"
-        },
-        {
-            "gitSyntax": "git mv <file> <new file> <br /> git mv first.txt home.txt",
-            "gitExplaination": "Rename file also known as moving <br /> Rename first.txt to home.txt"
-        },
-        {
-            "gitSyntax": "git mv <file> <Folder/> <br /> git mv first.txt test2/",
-            "gitExplaination": "Move to another folder  <br /> Move first.txt to a new folder called test2"
-        },
-        {
-            "gitSyntax": "git commit -am \"blahblah\"",
-            "gitExplaination": "Commit everything directly from working copy to repository - this only good for when its ready to commit everything, if we only have to commit one thing, we can’t do this"
-        },
-        {
-            "gitSyntax": "git checkout 01e7dba…. -- <file>",
-            "gitExplaination": "Getting old version from the Repository by reference commit number"
-        },
-        {
-            "gitSyntax": "git remote add <nicknameoftheproject> <link>",
-            "gitExplaination": "Link to GitHub"
-        },
-        {
-            "gitSyntax": "git push -u <nickName> master",
-            "gitExplaination": "Take all files and push to GitHub; They will ask for username and password"
-        },
-        {
-            "gitSyntax": "git remote ",
-            "gitExplaination": "Will show the nickName of the project"
-        },
-        {
-            "gitSyntax": "git pull <nickname/remote>",
-            "gitExplaination": "Pull down from repository and insert to your working copy"
-        },
-        {
-            "gitSyntax": "git checkout master -f ",
-            "gitExplaination": "Going back to master which is the latest commit state"
-        },
-        {
-            "gitSyntax": "git checkout <commitRef>^ -- <file>",
-            "gitExplaination": "Restore a deleted file from Git Repo"
-        },
-        {
-            "gitSyntax": "qq",
-            "gitExplaination": "Type qq to exit the screen (END)"
-        },
-        {
-            "gitSyntax": "git pull --rebase <remote> master",
-            "gitExplaination": "Just like Synchronize before commit - after this, u can commit"
-        },
-        {
-            "gitSyntax": "git log -2",
-            "gitExplaination": "Show the 2 latest commited"
-        }
-     ]
+    "theDocument": {
+        "javascript": [
+
+         "<b> Function </b> is a mini program that we can use anytime we want. <br /> For example: a play or pause button on YouTube, etc. <br /> Whenever they say \"call the function\" means use the function. Whenever they say pass - (a technical term) give additional information to a function, It called passing information into a parameter. <br /> For example: ",
+
+    "(x) is a parameter and when you give information into it, it called passing information.<br /> <br />",
+
+    "<b> Parameters with function: </b> additional information in order for your function to work - it is a variable; In order to make a parameters, you need to write a name of a variable. Apples is a function name and consist of two variables \"one\" and \"two\" <br /> <br />",
+
+    "<b>The Return Statement</b> Return statement won't do anything besides holding a value for you. You have to use it somehow. <br /> <br />",
+
+    "<b> Calling a Function from Another Function </b> -- Using a function from another function. In order to use a function, you need to call it at the end.  <br /> <br />",
+
+    "<b>Global and Local Variable </b> Global variable is any variables that made outside the function and Local variable is any variables that create inside of the body of the function. Global variable can be access anywhere in the program including the inner of the function. <br /> <br /> ",
+
+    "<b>Nesting (if statement inside another if statement) </b> <br /> <br />",
+
+    "<b> Switch Statement </b> Switch statement is more organize and easy to maintain than if else statement when we have to deal a lot of this condition. If all the cases don't match, we use default at the end. <br /> <br />",
+
+    "<b>For Loop </b> Loop is save time, it runs through your program when you write once and let its run as many times as you want. <br /> It takes 3 differnt statements inside the for loop condition. <br /> The first statement is variable - the starting point - usually 0 or 1 <br /> The second statement is the ending point. <br /> The third statement is - how much you want to increment or to go up by <br /> <br />",
+
+    "<b>While Loop </b> This is the same of for Loop, but it is set up different - syntax - while loop is a bit easier to understand <br /> <br />",
+
+    "<b>Do while Loop </b> It will run the code once before testing the condition - this will guarantee that the code run at least once even if that condition is fault. <br /> For example: when the condition is fault and the condition ran at least once. <br /> <br />",
+
+    "<b> Object Oriented Programming </b> - An Object - a piece of data that has it own property and method. <br /> Let say object is me myself - Venz. <br /> Property are the variables; For example: These are my properties: Hair: black, Car: white, Eye: brown, etc... <br /> Method are all the things that object does; For example: play video game, eat ice cream, etc... <br /> Let look at Property and Method that are already built-in in JavaScript. <br /> <b> Property </b> .length is a built-in property in JavaScript, this .length is basically tell you a little more about this object. <br /> <b> Method </b> document.write - Document is an object - the white screen empty webpage <b> .write </b> is a method - it writes text on the web page. <br /> <br />",
+
+    "<b> Creating Our Own Objects </b> One of the way and the easiest way to create our own object is to use the <u>constructor function</u> An object is a blueprint. <br /> Whenever we want to take a value and assign it to a person, we use \"this\" and then we can call this method - \"this\" to determine that we working with this current object. Create a new object is also called create a new instance of an object; create a new object just like create a new variable. <br /> <br />",
+
+    "<b> Object Initializers </b> Object initializer is a list of zero or more pairs of property names and associated values of an object, we use this when we have one or two object of the same type, but if we create a lot of person object - it is better to use a constructor function <br /> <br />",
+
+    "<b> Adding Methods to our Objects </b> <br /> A method is a function. This.yearsUntilRetire = yearsLeft; <br /> Explained: it is an anonymous type when you say this.yearsUntilRetire = yearsLeft; we are saying that yearsUntilRetire type is a function because yearsLeft is a function and we set them equal to that. we don't include () after yearsLeft because it would call/use the method, So when we do document.write(bucky.yearsUntilRetire); without parenthesis it prints out the function because yearsUntilRetire is a function. It as an anonymous type that got assigned to yearsLeft which made the type a function. When you add parenthesis it runs the function and that is why when you do (bucky.yearsUntilRetire()); it returns the expected value. <br /> <br />"
+
+            ],
+
+        "git": [
+            {
+                "gitSyntax": "git --version ",
+                "gitExplanation": "The version of git "
+                },
+            {
+                "gitSyntax": "git config --global user.name \"venz dior\" ",
+                "gitExplanation": "Change the configuration - configure my setting, change my user name to venz dior"
+                },
+            {
+                "gitSyntax": " pwd  ",
+                "gitExplanation": "tell you where you located right now"
+                },
+            {
+                "gitSyntax": " ls ",
+                "gitExplanation": "dir in command; it list all the files "
+                },
+            {
+                "gitSyntax": "git add .",
+                "gitExplanation": "Let Git know that we make some changes in the project - add all the changes to our projects. The dot means folder or directory  - adding to a staging area"
+                },
+            {
+                "gitSyntax": "git commit -m \"blahblah\"",
+                "gitExplanation": "Inside the quote are just messages/comments"
+                },
+            {
+                "gitSyntax": "git config --list",
+                "gitExplanation": "List all of your setting"
+                },
+            {
+                "gitSyntax": "Clear",
+                "gitExplanation": "Cls in command prompt - clear screen"
+                },
+            {
+                "gitSyntax": "git config user.name",
+                "gitExplanation": "To review one setting - user name: Venz Dior"
+                },
+            {
+                "gitSyntax": "git log",
+                "gitExplanation": "How to view all your commit history"
+                },
+            {
+                "gitSyntax": "git log --author=\"venz\"",
+                "gitExplanation": "Show the commit from one specific person"
+                },
+            {
+                "gitSyntax": "git status",
+                "gitExplanation": "To see if there are files that have not commit, etc."
+                },
+            {
+                "gitSyntax": "git add second.txt",
+                "gitExplanation": "Commit specific file that name \"second.txt\" instead of committing all file using git add ."
+                },
+            {
+                "gitSyntax": "git diff",
+                "gitExplanation": "Viewing the changes that you made between repository and working copy"
+                },
+            {
+                "gitSyntax": "git diff --staged",
+                "gitExplanation": "Viewing the changes that you made between repository and staging area"
+                },
+            {
+                "gitSyntax": "git rm third.txt",
+                "gitExplanation": "Delete files - i.e - remove the third.txt file from the repository and working copy (don't forget to commit because by committing, it taking a snap shot of that point in time)"
+                },
+            {
+                "gitSyntax": "git reset HEAD <file> <br /> git reset -- <file>",
+                "gitExplanation": "Remove from staging area to working copy"
+                },
+            {
+                "gitSyntax": "git checkout -- <file>",
+                "gitExplanation": "Bring it back - take something from repository make it to working copy"
+                },
+            {
+                "gitSyntax": "git mv <file> <new file> <br /> git mv first.txt home.txt",
+                "gitExplanation": "Rename file also known as moving <br /> Rename first.txt to home.txt"
+                },
+            {
+                "gitSyntax": "git mv <file> <Folder/> <br /> git mv first.txt test2/",
+                "gitExplanation": "Move to another folder  <br /> Move first.txt to a new folder called test2"
+                },
+            {
+                "gitSyntax": "git commit -am \"blahblah\"",
+                "gitExplanation": "Commit everything directly from working copy to repository - this only good for when its ready to commit everything, if we only have to commit one thing, we can’t do this"
+                },
+            {
+                "gitSyntax": "git checkout 01e7dba…. -- <file>",
+                "gitExplanation": "Getting old version from the Repository by reference commit number"
+                },
+            {
+                "gitSyntax": "git remote add <nicknameoftheproject> <link>",
+                "gitExplanation": "Link to GitHub"
+                },
+            {
+                "gitSyntax": "git push -u <nickName> master",
+                "gitExplanation": "Take all files and push to GitHub; They will ask for username and password"
+                },
+            {
+                "gitSyntax": "git remote ",
+                "gitExplanation": "Will show the nickName of the project"
+                },
+            {
+                "gitSyntax": "git pull <nickname/remote>",
+                "gitExplanation": "Pull down from repository and insert to your working copy"
+                },
+            {
+                "gitSyntax": "git checkout master -f ",
+                "gitExplanation": "Going back to master which is the latest commit state"
+                },
+            {
+                "gitSyntax": "git checkout <commitRef>^ -- <file>",
+                "gitExplanation": "Restore a deleted file from Git Repo"
+                },
+            {
+                "gitSyntax": "qq",
+                "gitExplanation": "Type qq to exit the screen (END)"
+                },
+            {
+                "gitSyntax": "git pull --rebase <remote> master",
+                "gitExplanation": "Just like Synchronize before commit - after this, u can commit"
+                },
+            {
+                "gitSyntax": "git log -2",
+                "gitExplanation": "Show the 2 latest commited"
+                }
+             ]
+    }
 
 }

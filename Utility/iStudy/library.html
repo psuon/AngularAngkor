@@ -13,6 +13,7 @@
 
     <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="http://code.angularjs.org/1.2.20/angular-sanitize.min.js"></script>
     <script src="event.js"></script>
     <script src="library.js"></script>
     <script src="service.js"></script>
@@ -72,6 +73,8 @@
         <div class="col-md-12">
             <div class="list-group">
                 <div class="menu" id="menu">
+                    <a class="list-group-item noToggle" href="#overView">
+                        <i class="fa fa-list-ol fa-fw"></i> Overview </a>
                     <a class="list-group-item" href="#"><i class="fa fa-book fa-fw"></i> Library </a>
                     <div class="navigation myList">
                         <ul style="display: inline-block;">
@@ -83,7 +86,6 @@
                             <li class="myList"><a href="#angularJs">AngularJs</a></li>
                             <li class="myList"><a href="#git">Git</a></li>
                         </ul>
-
 
                     </div>
                     <a class="list-group-item noToggle" href="#pic">
@@ -98,7 +100,12 @@
     <!------------------------- Content ---------------------------------------------->
     <!------------------------- HTML ---------------------------------------------->
 
-    <div class="col-md-10 pull-right" id="maincontent" style="display: inline-block;">
+    <div class="col-md-10 pull-right" id="maincontent" style="display: inline-block;" ng-app="myApp" ng-controller="myCtrl">
+        <div id="overView">
+            <h1> Overview </h1>
+
+        </div>
+
         <div id="html">
             <h1> HTML</h1>
             <p id="html1"> </p>
@@ -174,23 +181,8 @@
         <div id="javaScript">
             <h1> JavaScript </h1>
             <p id="javaScript1"> </p>
-            <ul>
-                <li id="javaScript2"></li>
-                <!--  To do:  Include image here     <img src=""">-->
-                <li id="javaScript3"></li>
-                <li id="javaScript4"></li>
-                <li id="javaScript5"></li>
-                <li id="javaScript6"></li>
-                <li id="javaScript7"></li>
-                <li id="javaScript8"></li>
-                <li id="javaScript9"></li>
-                <li id="javaScript10"></li>
-                <li id="javaScript11"></li>
-                <li id="javaScript12"></li>
-                <li id="javaScript13"></li>
-                <li id="javaScript14"></li>
-                <li id="javaScript15"></li>
-                <li id="javaScript16"></li>
+            <ul ng-repeat="js in allDoc.javascript">
+                <li ng-bind-html="js"></li>
             </ul>
         </div>
         <!---------------------------- JQuery --------------------------------------------->
@@ -219,15 +211,13 @@
                 <thead>
                     <tr>
                         <th>Syntax</th>
-                        <th>Explaination</th>
-
+                        <th>Explanation</th>
                     </tr>
                 </thead>
-                <tbody ng-app="myApp" ng-controller="myCtrl">
-
-                    <tr ng-repeat="x in gitDocument">
+                <tbody>
+                    <tr ng-repeat="x in allDoc.git">
                         <td> <b> {{ x.gitSyntax }} </b> </td>
-                        <td> {{ x.gitExplaination }} </td>
+                        <td> {{ x.gitExplanation }} </td>
                     </tr>
                 </tbody>
             </table>
