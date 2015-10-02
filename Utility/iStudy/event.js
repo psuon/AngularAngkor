@@ -26,7 +26,7 @@ var main = function () {
     });
 
     $('.navigation').hide(); //when the page first load, it hide the nav
-    $('.noToggle').click(false); // No toggle on picture and to do list
+    $('.noToggle').click(false); // No toggle on picture, to do list, overview
 
     $('.menu').click(function () {
         $('.menu').removeClass('current');
