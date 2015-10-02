@@ -178,3 +178,30 @@ table th {
 table th.last {
     border-right: none;
 }
+
+
+/*
+.navbar-brand {
+    margin-left: -15px;
+}
+
+.brand {
+    padding-top: 6px;
+    padding-bottom: 0px;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 50px;
+}*/
+
+#logo {
+    display: block;
+    height: 37px;
+    overflow: hidden;
+    position: relative;
+    width: 95px;
+}
