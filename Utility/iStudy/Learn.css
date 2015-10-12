@@ -179,29 +179,45 @@ table th.last {
     border-right: none;
 }
 
-
-/*
-.navbar-brand {
-    margin-left: -15px;
-}
-
-.brand {
-    padding-top: 6px;
-    padding-bottom: 0px;
-}
-
-.navbar-brand {
-    float: left;
-    padding: 15px;
-    font-size: 18px;
-    line-height: 20px;
-    height: 50px;
-}*/
-
 #logo {
     display: block;
     height: 37px;
     overflow: hidden;
     position: relative;
     width: 95px;
+}
+
+
+/*Image Slider*/
+
+.containerForSlider {
+    max-width: 400px;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.containerForSlider div {
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+    display: none;
+}
+
+.containerForSlider img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    position: absolute;
+}
+
+.nextImage {
+    right: 5px;
+}
+
+.prevImage {
+    left: 5px;
 }
