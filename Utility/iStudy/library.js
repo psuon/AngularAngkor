@@ -38,7 +38,6 @@ $(function () {
 });
 
 //Side Nav Menu 
-//var app = angular.module('newApp', []);
 $(function () {
     $("#maincontent > div:gt(0)").hide();
     $("#menu a").on("click", function (e) {
