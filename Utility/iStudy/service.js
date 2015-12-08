@@ -53,4 +53,13 @@ app.controller('myCtrl', function ($scope, $http) {
         .success(function (response) {
             $scope.allDoc = response.theDocument;
         });
+
+    //alert
+    $scope.alertPopup = function () {
+        alert("Sorry there nothing for me to help.");
+    }
+
+    $scope.logInPopup = function () {
+        alert("Don't click here again");
+    }
 });
